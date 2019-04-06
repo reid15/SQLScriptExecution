@@ -1,0 +1,1 @@
+SQLScriptExecution.exe "..\ScriptTest" "RobLT\SS2017" "TestDB"
