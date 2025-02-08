@@ -9,7 +9,9 @@ namespace SQLScriptExecution
         {
             try
             {
+                Console.WriteLine("Starting SqlScriptExecution");
                 SQLScriptExecution.SqlScriptExecution(args[0], args[1], args[2]);
+                Console.WriteLine("Ending SqlScriptExecution");
             }
             catch (Exception e)
             {

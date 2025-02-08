@@ -1,1 +1,1 @@
-SQLScriptExecution.exe "..\ScriptTest" "RobLT\SS2017" "TestDB"
+SQLScriptExecution.exe "..\ScriptTest" "ROBLT23\SS2022" "TestDB"

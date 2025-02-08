@@ -15,8 +15,9 @@ namespace SQLScriptExecution
             string databaseName
         )
         {
+
             var fileList = GetScriptNames(scriptDirectory);
-            foreach(string filePath in fileList)
+            foreach (string filePath in fileList)
             {
                 Console.WriteLine(filePath);
                 RunScript(instanceName, databaseName, filePath);
@@ -26,7 +27,7 @@ namespace SQLScriptExecution
 
         private static List<string> GetScriptNames(string scriptDirectory)
         {
-            var fileList = Directory.GetFiles(scriptDirectory, "*.sql");
+            var fileList = Directory.GetFiles(scriptDirectory, "*.sql", SearchOption.AllDirectories);
             List<string> returnList = fileList.ToList();
             return returnList;
         }
