@@ -1,4 +1,4 @@
-SQL Script Execution
+# SQL Script Execution
 
 **Overview:**
 	Command line program to run all SQL Server scripts in a directory.
